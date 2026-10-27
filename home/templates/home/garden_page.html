@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/garden.css' %}">
+{% endblock %}
+{% block content %}
+    <main>
+        <h1>Le jardin</h1>
+
+        <section>
+            <h2>Un jardin à cultiver ensemble</h2>
+
+            <p>
+                Notre jardin s’étend sur 400m², avec une vingtaine
+                de parcelles individuelles et un espace collectif.
+                Chaque membre peut cultiver sa propre parcelle,
+                participer aux récoltes communes, ou simplement
+                venir donner un coup de main le samedi matin.
+            </p>
+        </section>
+    </main>
+{% endblock content %}

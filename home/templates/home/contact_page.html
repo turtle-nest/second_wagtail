@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/garden.css' %}">
+{% endblock %}
+{% block content %}
+    <main>
+        <h1>Contact</h1>
+
+        <section>
+            <p>
+                Pour nous rejoindre ou simplement venir visiter,
+                contactez-nous :
+            </p>
+
+            <address>
+                <p>
+                    Email :
+                    <a href="mailto:contact@jardins-begles.exemple.com">
+                        contact@jardins-begles.exemple.com
+                    </a>
+                </p>
+
+                <p>
+                    Adresse : Allée des Jardiniers, 33130 Bègles
+                </p>
+
+                <p>
+                    Permanence : tous les samedis de 10h à 12h
+                </p>
+            </address>
+        </section>
+    </main>
+{% endblock content %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/garden.css' %}">
+{% endblock %}
+{% block content %}
+    <main>
+        <h1>Les Jardins Partagés de Bègles</h1>
+
+        <section>
+            <h2>Bienvenue dans notre jardin collectif</h2>
+
+            <p>
+                Les Jardins Partagés de Bègles rassemblent des
+                habitant·e·s du quartier autour d’un même potager
+                collectif. Depuis 2019, nous cultivons légumes et
+                convivialité, ensemble, sans pesticides, ouverts à
+                tous les âges et tous les niveaux d’expérience.
+            </p>
+        </section>
+    </main>
+{% endblock content %}
